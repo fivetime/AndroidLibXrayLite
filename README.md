@@ -1,6 +1,6 @@
 # Xray 编译 Android aar
 
-Xray 在实现上使用 go 语言，同时客户端和服务端共用同一套代码，根据配置文件的不同来判断是客户端还是服务端。如果想在 Android 的客户端上运行 V2Ray，那么就需要知道如何编译 v2ray-core 到 aar 库，提供给 Android 客户端。
+Xray 在实现上使用 go 语言，同时客户端和服务端共用同一套代码，根据配置文件的不同来判断是客户端还是服务端。如果想在 Android 的客户端上运行 Xray，那么就需要知道如何编译 Xray-core 到 aar 库，提供给 Android 客户端。
 
 ## 1. 未解决问题
 ### 1.1. gomobile 不支持 Go module 编译
