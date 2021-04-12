@@ -14,7 +14,6 @@ import (
 	"AndroidLibV2rayLite/shippedBinarys"
 	mobasset "golang.org/x/mobile/asset"
 
-	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/VPN"
 	mobasset "golang.org/x/mobile/asset"
 
 	v2core "github.com/xtls/xray-core/core"

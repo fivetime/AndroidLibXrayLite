@@ -1,4 +1,4 @@
-module github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite
+module github.com/fivetime/AndroidLibXrayLite
 
 go 1.16
 
