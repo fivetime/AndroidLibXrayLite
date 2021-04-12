@@ -7,7 +7,7 @@ import (
 
 	"log"
 
-	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/CoreI"
+	"AndroidLibXrayLite/CoreI"
 )
 
 func (v *Escorting) EscortRun(proc string, pt []string, additionalEnv string, sendFd func() int) {
