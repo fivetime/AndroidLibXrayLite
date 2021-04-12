@@ -17,11 +17,11 @@ if [[ ! -d ${ASSETS_DIR} ]] ; then
 fi
 
 download_dat () {
-    wget -qO - https://api.github.com/repos/v2ray/geoip/releases/latest \
+    wget -qO - https://api.github.com/repos/v2fly/geoip/releases/latest \
     | grep browser_download_url | cut -d '"' -f 4 \
     | wget -i - -O $ASSETS_DIR/geoip.dat
 
-    wget -qO - https://api.github.com/repos/v2ray/domain-list-community/releases/latest \
+    wget -qO - https://api.github.com/repos/v2fly/domain-list-community/releases/latest \
     | grep browser_download_url | cut -d '"' -f 4 \
     | wget -i - -O $ASSETS_DIR/geosite.dat
 }
