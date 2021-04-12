@@ -5,7 +5,7 @@ import (
 	"os"
 	"strconv"
 	
-	"AndroidLibV2rayLite/CoreI"
+	"AndroidLibXrayLite/CoreI"
 )
 
 type FirstRun struct {

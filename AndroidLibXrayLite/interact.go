@@ -8,10 +8,10 @@ import (
 	"strings"
 	"sync"
 
-	"AndroidLibV2rayLite/CoreI"
-	"AndroidLibV2rayLite/Process/Escort"
-	"AndroidLibV2rayLite/VPN"
-	"AndroidLibV2rayLite/shippedBinarys"
+	"AndroidLibXrayLite/CoreI"
+	"AndroidLibXrayLite/Process/Escort"
+	"AndroidLibXrayLite/VPN"
+	"AndroidLibXrayLite/shippedBinarys"
 	mobasset "golang.org/x/mobile/asset"
 
 	mobasset "golang.org/x/mobile/asset"

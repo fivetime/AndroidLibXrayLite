@@ -62,12 +62,12 @@ if [[ ${update_go_dep} == "1" ]] ; then
 fi
 
 # copy self to GOPATH
-target=${GOPATH}/src/AndroidLibV2rayLite
+target=${GOPATH}/src/AndroidLibXrayLite
 
 mkdir -p ${target}
 cp -rfv "${__dir}"/* ${target}/
 # down dep
-go get AndroidLibV2rayLite
+go get AndroidLibXrayLite
 
 ################ 下载 assets  ################
 if [[ ${download_data} == "1" ]] ; then

@@ -7,6 +7,6 @@ RUN apt-get update && apt-get -y upgrade && \
     apt-get autoremove && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-WORKDIR /root/go/src/AndroidLibV2rayLite
+WORKDIR /root/go/src/AndroidLibXrayLite
 
 CMD ["/bin/bash","-vx","build-in-docker.sh","data","dep"]

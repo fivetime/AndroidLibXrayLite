@@ -1,8 +1,8 @@
 sudo: required
 language: go
 go:
-  - "1.12"
-go_import_path: AndroidLibV2rayLite
+  - "1.16"
+go_import_path: AndroidLibXrayLite
 git:
   depth: 5
 addons:

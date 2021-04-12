@@ -11,7 +11,7 @@ Usage:
     $cmdname [sdk] [data] [dep] [ h | help]
     sdk       :       download latest Android SDK and NDK.
     data      :       download latest geoip.dat and geosite.dat files.
-    depi      :       update dependencies of AndroidLibV2rayLite.
+    depi      :       update dependencies of AndroidLibXrayLite.
     h | help  :       show help.
 USAGE
 }
@@ -121,10 +121,10 @@ fi
 
 
 echo "docker run and build aar ....."
-GO_PATH_SRC_DIR_IN_DOCKER=/root/go/src/AndroidLibV2rayLite
+GO_PATH_SRC_DIR_IN_DOCKER=/root/go/src/AndroidLibXrayLite
 docker run --name builder --rm \
     -v /usr/local/go:/opt/go \
     -v ${ANDROID_HOME}:/opt/android-sdk \
-    -v "${root_dir}"/AndroidLibV2rayLite:${GO_PATH_SRC_DIR_IN_DOCKER} \
+    -v "${root_dir}"/AndroidLibXrayLite:${GO_PATH_SRC_DIR_IN_DOCKER} \
     yuanmomo/android-v2ray-build:1.0.0 /bin/bash -vx ${GO_PATH_SRC_DIR_IN_DOCKER}/build-in-docker.sh ${download_geo_data} ${update_go_dep}
 

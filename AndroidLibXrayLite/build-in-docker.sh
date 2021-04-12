@@ -14,7 +14,7 @@ export GOPROXY=direct
 export PATH=${PATH}:${GOBIN}:${GOPATH}/bin:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
 
 # change dir
-cd ${GOPATH}/src/AndroidLibV2rayLite
+cd ${GOPATH}/src/AndroidLibXrayLite
 
 download_data=0
 update_go_dep=0
@@ -38,7 +38,7 @@ if [[ ${update_go_dep} == "1" ]] ; then
   go get -u github.com/jteeuwen/go-bindata/...
   go get -u -insecure v2ray.com/core/...
 
-  #go get AndroidLibV2rayLite
+  #go get AndroidLibXrayLite
 fi
 
 

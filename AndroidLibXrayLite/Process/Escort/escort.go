@@ -7,7 +7,7 @@ import (
 
 	"log"
 
-	"AndroidLibV2rayLite/CoreI"
+	"AndroidLibXrayLite/CoreI"
 )
 
 func (v *Escorting) EscortRun(proc string, pt []string, additionalEnv string, sendFd func() int) {
