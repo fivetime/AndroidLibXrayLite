@@ -49,7 +49,7 @@ root_dir=${current_dir}/..
 # --- set ENV
 DOWNLOAD_URL="https://dl.google.com/android/repository"
 SDK_FILE_NAME="sdk-tools-linux-4333796.zip"
-GO_FILE_NAME="go1.15.4.linux-amd64.tar.gz"
+GO_FILE_NAME="go1.16.3.linux-amd64.tar.gz"
 
 ANDROID_HOME="/usr/local/android-sdk"
 ANDROID_NDK_HOME="${ANDROID_HOME}/ndk-bundle"
