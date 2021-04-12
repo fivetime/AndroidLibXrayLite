@@ -21,7 +21,7 @@ https://briteming.blogspot.com/2017/09/socksvpn-fqrouter.html
 其中，SDK Platforms 下载几个 Android 的版本。  
 
 #### 3.1.2. 安装 GO
-go 我使用的版本: go version go1.13.1 darwin/amd64
+go 我使用的版本: go version go1.16.3 darwin/amd64
 
 ### 3.1.3. clone 仓库
 ```
