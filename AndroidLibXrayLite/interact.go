@@ -1,23 +1,18 @@
 package libv2ray
 
 import (
-	"context"
-	"errors"
 	"fmt"
 	"io"
 	"log"
-	"net"
-	"net/http"
 	"os"
-	"path/filepath"
 	"strings"
 	"sync"
-	"time"
-
-	"AndroidLibXrayLite/CoreI"
-	"AndroidLibXrayLite/Process/Escort"
-	"AndroidLibXrayLite/VPN"
-	"AndroidLibXrayLite/shippedBinarys"
+	
+	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/CoreI"
+	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/Process/Escort"
+	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/VPN"
+	"github.com/fivetime/AndroidLibXrayLite/AndroidLibXrayLite/shippedBinarys"
+	
 	mobasset "golang.org/x/mobile/asset"
 
 	v2core "github.com/xtls/xray-core/core"
